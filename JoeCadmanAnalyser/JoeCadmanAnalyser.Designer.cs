@@ -56,10 +56,10 @@ namespace JoeCadmanAnalyser
             // 
             // resultsTextBox
             // 
-            this.resultsTextBox.Enabled = false;
             this.resultsTextBox.Location = new System.Drawing.Point(472, 73);
             this.resultsTextBox.Multiline = true;
             this.resultsTextBox.Name = "resultsTextBox";
+            this.resultsTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.resultsTextBox.Size = new System.Drawing.Size(443, 343);
             this.resultsTextBox.TabIndex = 2;
             // 
